@@ -1,0 +1,10 @@
+pytorch-lightning==1.3.7
+inplace_abn
+imageio
+pillow
+scikit-image
+opencv-python
+ConfigArgParse
+lpips
+kornia
+ipdb

@@ -1,0 +1,16 @@
+### INPUT
+expname = lego_test
+logdir = ./logs
+nb_views = 9  #### Set to 7 for fine-tuning
+
+## dataset
+dataset_name = nerf
+nerf_path = Path to NeRF dataset (nerf_synthetic)
+scene = lego
+
+### TESTING
+chunk = 4096  ### Reduce it to save memory
+
+### TRAINING
+num_steps = 10000
+lrate = 0.0002
